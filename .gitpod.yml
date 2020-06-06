@@ -1,0 +1,7 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: 'echo "TODO: Replace with init/build command"'
+    command: docker run -t --rm -v $(pwd)/reports:/reports kanolato/rapidscan
+      example.com
